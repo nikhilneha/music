@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    background-color: black;
+    float: left;
+    height: 656px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    float: left;
+    background-color: blueviolet;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    width: 335px;
+    height: 59px;
+    line-height: 60px;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s;
+    display: block;
+}
+ul li a:hover{
+    background-color: yellowgreen;
+    color: darkorange;
+}
+section{
+    width: 430px;
+    float: left;
+}
+section table{
+    border-collapse: collapse;
+    margin: -210px 100px;
+    border: white;
+    float: left;
+}
+section h2{
+    margin: 120px 135px;
+    color: yellowgreen;
+}
+section b{
+    margin: 0px 20px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: palevioletred;
+}
+section audio{
+    height: 25px;
+}
+aside{
+  width: 430px;
+  float: left;
+}
+aside table{
+    border-collapse: collapse;
+    margin: -210px 100px;
+    border: white;
+    float: left;
+}
+aside h2{
+    margin: 120px 100px;
+    color: tomato;
+}
+aside b{
+    margin: 0px 20px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: peru;
+}
+aside audio{
+    height: 25px;
+}
+article{
+    width: 430px;
+    float: left;
+}
+article table{
+    border-collapse: collapse;
+    margin: -210px 100px;
+    border: white;
+    float: left;
+}
+article h2{
+    margin: 120px 135px;
+    color: darkorange;
+}
+article b{
+    margin: 0px 20px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: orangered;
+}
+article audio{
+    height: 25px;
+}
